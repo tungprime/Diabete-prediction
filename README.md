@@ -24,6 +24,8 @@ For classical machine learning models, we chose decision trees and KNN models be
 
 Additionally, we also built some neural network models. The use of deep learning in medical research has proved to be powerful lately, and we want to demonstrate that point in this project. 
 
+In all of our models, we had to tune-in important hyperparameters. We did so by doing a GridSearchCV or an Randomized GridSearch. 
+
 # Our results 
 
 In our project, we focus on optimizing our ability to predict someone with diabetes correctly. Most of our models can predict this disease at least 75% of the time. Our most powerful model (decision tree) can detect at least 93% of women with diabetes. 
