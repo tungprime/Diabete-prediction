@@ -16,7 +16,11 @@ This problem poses some rather severe challenges. Some of them are:
 
 # Our methodology
 
-We built a comprehensive pipeline to solve this problem. For classical machine learning models, we chose decision trees and KNN models because of their power, and interpretability both to doctors and patients. Furthermore, decision tree models also help us identify features that are most relevant in detecting diabetes. 
+We built a comprehensive pipeline to solve this problem. 
+
+We solved the missing values issue by replacing them with the mean of each class. We used data visulization with Pandas and Seaborn to gain a deep undertanding of all the features and their relationship.  
+
+For classical machine learning models, we chose decision trees and KNN models because of their power, and interpretability both to doctors and patients. Furthermore, decision tree models also help us identify features that are most relevant in detecting diabetes. 
 
 Additionally, we also built some neural network models. The use of deep learning in medical research has proved to be powerful lately, and we want to demonstrate that point in this project. 
 
